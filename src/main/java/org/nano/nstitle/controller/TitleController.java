@@ -446,10 +446,6 @@ public class TitleController {
 
             if ( titleManager.haveTitle(title,target)){
                 titleManager.equip(target,title);
-                message(sender,"&n&6                                   ");
-                message(sender,"&a 칭호를 상태를 변경했습니다!");
-                message(sender,"&a 칭호 : "+title.getDisplay());
-                message(sender,"");
             }else{
                 message(sender,"");
                 message(sender,"&c 오류 〉 칭호를 보유해야 합니다.");
